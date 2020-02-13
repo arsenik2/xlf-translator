@@ -1,6 +1,6 @@
 {
-  "name": "xlf-translator",
-  "version": "1.0.30",
+  "name": "ng-xlf-translator",
+  "version": "1.0.0",
   "description": "An XLF Reader and translator",
   "main": "index.js",
   "bin": {
@@ -35,6 +35,6 @@
     "express": "^4.16.4",
     "json2csv": "^4.1.4",
     "log-symbols": "^3.0.0",
-    "xml2js": "^0.4.19"
+    "xml2js": "^0.4.23"
   }
 }
