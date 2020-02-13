@@ -1,7 +1,7 @@
 {
   "name": "ng-xlf-translator",
   "version": "1.0.0",
-  "description": "An XLF Reader and translator",
+  "description": "An XLF Reader and translator for NG-cli",
   "main": "index.js",
   "bin": {
     "translate": "./bin/translate.js"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivonederlof/xlf-translator.git"
+    "url": "git+https://github.com/arsenik2/xlf-translator.git"
   },
   "keywords": [
     "XLF",
@@ -21,12 +21,12 @@
     "translator",
     "i18n"
   ],
-  "author": "Ivo Nederlof",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ivonederlof/xlf-translator/issues"
+    "url": "https://github.com/arsenik2/xlf-translator/issues"
   },
-  "homepage": "https://github.com/ivonederlof/xlf-translator#readme",
+  "homepage": "https://github.com/arsenik2/xlf-translator#readme",
   "dependencies": {
     "@k3rn31p4nic/google-translate-api": "^1.0.5",
     "async": "^2.6.1",
