@@ -1,7 +1,7 @@
 {
   "name": "ng-xlf-translator",
   "version": "1.0.0",
-  "description": "An XLF Reader and translator for NG-cli",
+  "description": "An XLF Reader and translator adapted for NG-cli",
   "main": "index.js",
   "bin": {
     "translate": "./bin/translate.js"
@@ -21,7 +21,7 @@
     "translator",
     "i18n"
   ],
-  "author": "",
+  "author": "Ivo Nederlof",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/arsenik2/xlf-translator/issues"
