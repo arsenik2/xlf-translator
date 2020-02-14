@@ -2,6 +2,125 @@
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
   <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
+      <trans-unit id="availableBalance" datatype="html">
+        <source><x id="ICU" equiv-text="{!isTermDeposit(account), select, true {...} false {...}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-accounts-list/customer-accounts-list.component.html</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+        <note priority="1" from="description">Available balance</note>
+        <note priority="1" from="meaning">Available balance</note>
+      </trans-unit>
+      <trans-unit id="2df75296e5213c54aa33b77b5a2fdb130e54452a" datatype="html">
+        <source>{VAR_SELECT, select, true {Available Balance} false {Balance} }</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-accounts-list/customer-accounts-list.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="loadOperations" datatype="html">
+        <source>Load Operations</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-accounts-list/customer-accounts-list.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description">Load operations</note>
+        <note priority="1" from="meaning">Load operations</note>
+      </trans-unit>
+      <trans-unit id="openingDate" datatype="html">
+        <source>Opening Date:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-accounts-list/customer-accounts-list.component.html</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+        <note priority="1" from="description">openingDate</note>
+      </trans-unit>
+      <trans-unit id="currencu" datatype="html">
+        <source>Currency:</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-accounts-list/customer-accounts-list.component.html</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+        <note priority="1" from="description">currency</note>
+      </trans-unit>
+      <trans-unit id="accountDetailTitle" datatype="html">
+        <source>
+    ACCOUNT DETAILS
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">Account detail title</note>
+        <note priority="1" from="meaning">Account detail title</note>
+      </trans-unit>
+      <trans-unit id="interestRatesLabel" datatype="html">
+        <source>
+    Interest rates:
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">Interest rates label</note>
+        <note priority="1" from="meaning">Interest rates label</note>
+      </trans-unit>
+      <trans-unit id="maxDeposit" datatype="html">
+        <source>Max deposit: <x id="INTERPOLATION" equiv-text="{{accountDetail.maximumDeposit.value}}"/> <x id="INTERPOLATION_1" equiv-text="{{accountDetail.maximumDeposit.currency}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description">Max deposit</note>
+        <note priority="1" from="meaning">Max deposit</note>
+      </trans-unit>
+      <trans-unit id="interestOfTheYear" datatype="html">
+        <source>Interest of the year: <x id="INTERPOLATION" equiv-text="{{accountDetail.interestsOfTheYear.value}}"/> <x id="INTERPOLATION_1" equiv-text="{{accountDetail.interestsOfTheYear.currency}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Interest of the year</note>
+        <note priority="1" from="meaning">Interest of the year</note>
+      </trans-unit>
+      <trans-unit id="interestSinceOpening" datatype="html">
+        <source>Interest since opening: <x id="INTERPOLATION" equiv-text="{{accountDetail.interestsSinceOpening.value}}"/> <x id="INTERPOLATION_1" equiv-text="{{accountDetail.interestsSinceOpening.currency}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description">Interest since opening</note>
+        <note priority="1" from="meaning">Interest since opening</note>
+      </trans-unit>
+      <trans-unit id="accountOperationsTitle" datatype="html">
+        <source>
+    ACCOUNT OPERATIONS
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">Account operations title</note>
+        <note priority="1" from="meaning">Account operations title</note>
+      </trans-unit>
+      <trans-unit id="dateLabel" datatype="html">
+        <source>Date: <x id="INTERPOLATION" equiv-text="{{operation.requestedDate}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description">Date label</note>
+        <note priority="1" from="meaning">Date label</note>
+      </trans-unit>
+      <trans-unit id="typeLabel" datatype="html">
+        <source>Type: <x id="INTERPOLATION" equiv-text="{{operation.type}}"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description">Type label</note>
+        <note priority="1" from="meaning">Type label</note>
+      </trans-unit>
       <trans-unit id="valueDateLabel" datatype="html">
         <source>Value date: <x id="INTERPOLATION" equiv-text="{{operation.valueDate}}"/></source>
         <context-group purpose="location">
@@ -19,17 +138,6 @@
         </context-group>
         <note priority="1" from="description">Amount label</note>
         <note priority="1" from="meaning">Amount label</note>
-      </trans-unit>
-      <trans-unit id="accountDetailTitle" datatype="html">
-        <source>
-        ACCOUNT DETAILS
-        </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/customer-accounts/components/customer-account-details/customer-account-details.component.html</context>
-          <context context-type="linenumber">2</context>
-        </context-group>
-        <note priority="1" from="description">Account detail title</note>
-        <note priority="1" from="meaning">Account detail title</note>
       </trans-unit>
     </body>
   </file>
