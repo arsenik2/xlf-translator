@@ -1,6 +1,6 @@
 {
   "name": "ng-xlf-translator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An XLF Reader and translator adapted for NG-cli",
   "main": "index.js",
   "bin": {
